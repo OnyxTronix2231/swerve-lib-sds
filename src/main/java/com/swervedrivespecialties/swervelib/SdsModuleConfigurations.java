@@ -20,9 +20,9 @@ public final class SdsModuleConfigurations {
     
     public static final ModuleConfiguration MK3_FAST = new ModuleConfiguration(
             0.1016,
-            1/7.5,
+            (10.0 / 24.0) * (24.0 / 20.0) * (15.0 / 45.0),
             true,
-            1/12,
+            (10 / 48.0) * (24.0 / 60.0),
             true
     );
 
